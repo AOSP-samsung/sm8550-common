@@ -85,5 +85,14 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
+    is_tablet = os.getenv('TARGET_IS_TABLET', 'false').lower() == 'true'
     utils = ExtractUtils.device(module)
+    if not is_tablet:
+        common_blob_list = os.path.join(os.path.dirname(__file__), '../sm8550-common/proprietary-files-phone.txt')
+        if os.path.exists(common_blob_list):
+            utils.add_blob_list(common_blob_list)
+        else:
+            print(f"Error: {common_blob_list} not found.")
+            exit(1)
+
     utils.run()

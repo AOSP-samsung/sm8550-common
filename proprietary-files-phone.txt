@@ -1,0 +1,120 @@
+# All unpinned blobs are extracted from S911BXXS7CXL2
+
+# Audio
+vendor/lib64/lib_lvacfs.so
+
+# Audio configs
+vendor/etc/audio_effects_haptic.xml
+
+# Audio firmware
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l26-a2h.bin
+vendor/firmware/cs40l26-calib.bin
+vendor/firmware/cs40l26-calib.wmfw
+vendor/firmware/cs40l26-dvl.bin
+vendor/firmware/cs40l26-svc.bin
+vendor/firmware/cs40l26-svc1.bin
+vendor/firmware/cs40l26-svc2.bin
+vendor/firmware/cs40l26-svc3.bin
+vendor/firmware/cs40l26-wt1.bin
+vendor/firmware/cs40l26-wt2.bin
+vendor/firmware/cs40l26-wt3.bin
+vendor/firmware/cs40l26.bin
+vendor/firmware/cs40l26.wmfw
+
+# Audio FX modules
+vendor/lib64/lib_SamsungRec_08020.so
+
+# Camera
+vendor/etc/portrait_data/single_portrait_feature_unihal.json
+vendor/etc/str/str_preference_data.dat
+vendor/lib64/libAIMFISP.camera.samsung.so
+vendor/lib64/libAIMFISP_core.camera.samsung.so
+vendor/lib64/libAImode_wrapper.camera.samsung.so
+vendor/lib64/libAIphoto_core.camera.samsung.so
+vendor/lib64/libBarcodeReader.vendor.quram.so
+vendor/lib64/libBeauty_v4.camera.samsung.so
+vendor/lib64/libDocumentDetector.uniplugin@1.0.so
+vendor/lib64/libIDDQD_core.so
+vendor/lib64/libImageSegmenter_v1.camera.samsung.so
+vendor/lib64/libLocalTM_preview_core.so
+vendor/lib64/libMotionEstimator.camera.samsung.so
+vendor/lib64/libMotionEstimator.uniplugin@1.0.so
+vendor/lib64/libMotionEstimatorWrapper.camera.samsung.s
+vendor/lib64/libPortraitSolution.camera.samsung_preview.so
+vendor/lib64/libQRInterface.camera.samsung.so
+vendor/lib64/libQrDetector.uniplugin@1.0.so
+vendor/lib64/libSSMAutoTrigger_interface.so
+vendor/lib64/libSSM_AutoTrigger.so
+vendor/lib64/libSWNDFilterPreview.camera.samsung.so
+vendor/lib64/libTetraMFP10.camera.samsung.so
+vendor/lib64/libTetraMFP10Tuning.camera.samsung.so
+vendor/lib64/libUniScaler.uniplugin@1.0.so
+vendor/lib64/libauto_framing_lite.uniplugin@1.0.so
+vendor/lib64/libbeauty_preview.uniplugin@1.0.so
+vendor/lib64/libbeautyshot.arcsoft.so
+vendor/lib64/libdualcam_refocus_image.so
+vendor/lib64/libfrc.quram.so
+vendor/lib64/libfrc_quram.uniplugin@1.0.so
+vendor/lib64/libiddqd.uniplugin@1.0.so
+vendor/lib64/libjump_shot.uniplugin@1.0.so
+vendor/lib64/liblivefocus_capture_engine.so
+vendor/lib64/liblivefocus_capture_interface.so
+vendor/lib64/liblivefocus_preview_engine.so
+vendor/lib64/liblivefocus_preview_interface.so
+vendor/lib64/liblocaltm_capture.uniplugin@1.0.so
+vendor/lib64/libmcaimegpuSSM.samsung.so
+vendor/lib64/libndfilter_preview.uniplugin@1.0.so
+vendor/lib64/libsingle_portrait_preview.uniplugin@1.0.so
+vendor/lib64/libsmartfocus.uniplugin@1.0.so
+vendor/lib64/libzoomroi_lite.samsung.so
+
+# Hermes
+vendor/etc/secnvm/k250a_47000304_c.img
+
+# NFC
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
+vendor/etc/libese-nxp.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml
+vendor/lib64/ese_spi_nxp.so
+vendor/lib64/nfc_nci_nxpsn.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+
+# NFC firmware
+vendor/firmware/nfc/libsn220u_fw.so
+
+# RIL
+vendor/bin/hw/rild
+vendor/etc/locale/plmn_delta_eng.bin
+vendor/etc/locale/plmn_delta_zh-rCN.bin
+vendor/etc/locale/plmn_delta_zh-rHK.bin
+vendor/etc/locale/plmn_delta_zh-rTW.bin
+vendor/etc/mtu-conf.xml
+vendor/etc/pdpcnt-conf.xml
+vendor/etc/plmn_delta.bin
+vendor/etc/plmn_delta_attaio.bin
+vendor/etc/plmn_delta_hktw.bin
+vendor/etc/plmn_delta_usagsm.bin
+vendor/etc/plmn_se13.bin
+vendor/etc/qms_log_config
+vendor/etc/sec_config_oem
+vendor/lib64/libSemDataProps.so
+vendor/lib64/libSemTelephonyProps.so
+vendor/lib64/libril_sem.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libsec_semRil.so
+vendor/lib64/vendor.samsung.hardware.radio-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.channel-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.data-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.messaging-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.sim-V1-ndk.so
+
+# Secure element
+vendor/bin/hw/android.hardware.secure_element@1.2-service
+vendor/etc/init/android.hardware.secure_element@1.2-service.rc
